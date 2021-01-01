@@ -57,7 +57,6 @@ To properly review my own work I need to draft up some acceptance criteria for e
 -	Cheat sheet segment
     -	Should contain things that are quotable/pluggable into a question
 	-	Should not have theoretical explanations
-	-	
 Kanban uses cycle/ead time which measures the time it takes from commitment to fulfilment of a ticket.
 
 You determine how many workflow states you want – to do, in progress, document review and done, etc. You have to set a Work-In-Progress limit for every column except Done. 
