@@ -1,6 +1,6 @@
 # AY20-21-Semester-2
 Central repository of my notes and homework for this semester
-
+## Scrum vs. Kanban
 Scrum is a framework for agile development. 
 There are four steps – the sprint planning, daily standup, sprint review, and sprint retrospective.
 Additionally there are three artifacts to be maintained throughout the development life cycle – the product backlog, sprint backlog and the increment/demo
@@ -56,8 +56,9 @@ To properly review my own work I need to draft up some acceptance criteria for e
 	-	Should be at most 2 A4 pages
 -	Cheat sheet segment
     -	Should contain things that are quotable/pluggable into a question
-    -	Should not have theoretical explanations
-Kanban uses cycle/ead time which measures the time it takes from commitment to fulfilment of a ticket.
+	-	Should not have theoretical explanations
+
+Kanban uses cycle time which measures the time it takes from commitment to fulfilment of a ticket.
 
 You determine how many workflow states you want – to do, in progress, document review and done, etc. You have to set a Work-In-Progress limit for every column except Done. 
 
@@ -67,3 +68,23 @@ In a Kanban board, you have visual signals, or tickets, and your columns compose
 
 In a ticket, you have a brief description of the task, its owner, due date and status, and any blocking points or references to documentation. For transitions between workflow states, have some execution policy.
 
+## Scrum-ban system
+I use the following scrum elements: 
+
+ 1. Sprint planning
+ 2. Sprint review 
+ 3. Sprint retrospective
+ 4. 1-week sprint (not the industrial standard, but 1 week is perfect for the lecture-tutorial system where 1 topic is covered a week)
+ 5. A backlog
+ 
+
+I omit the following scrum elements:
+1. Story points
+2. Sprint velocity
+
+I use the following Kanban elements:
+
+ 1. Tracking cycle time
+ 2. WIP limits on each 
+
+ 
