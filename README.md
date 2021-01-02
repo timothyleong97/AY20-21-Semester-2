@@ -66,7 +66,7 @@ Kanban has no fixed iteration time unlike scrum.
 
 In a Kanban board, you have visual signals, or tickets, and your columns compose a workflow. For each ticket, you log the commitment point and the delivery point. The time difference between the two is the lead time.
 
-In a ticket, you have a brief description of the task, its owner, due date and status, and any blocking points or references to documentation. For transitions between workflow states, have some execution policy.
+In a ticket, you have a brief description of the task, its owner, due date and status, and any blocking points or references to documentation. For transitions between workflow states, have some execution policy. For eg, reviews mean that I have some unanswered questions for tutorials or lectures so they are not totally finished. To transition to done, i must write down what questions I raised and when they were answered to make sure there is no snowballing of doubts.
 
 ## Scrum-ban system
 I use the following scrum elements: 
