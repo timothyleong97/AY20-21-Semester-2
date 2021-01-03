@@ -54,6 +54,7 @@ To properly review my own work I need to draft up some acceptance criteria for e
 	-	Should have examples where the lecture slides do not provide them
 	-	Should be easily memorisable 
 	-	Should be at most 2 A4 pages
+	-  Should have diagnostic questions for faster studying
 -	Cheat sheet segment
     -	Should contain things that are quotable/pluggable into a question
 	-	Should not have theoretical explanations
