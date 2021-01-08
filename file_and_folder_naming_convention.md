@@ -8,11 +8,12 @@
 
 1. All materials for a course should be in a root level folder with just the name of the course, e.g. CS3223.
 2. Have a mega problem set folder, e.g. Problem_Set_CS3223
-   1. Technical explanations, things to memorise - make questions out of all of them
-   2. Add tutorial questions in
-   3. Textbook questions as well
-   4. Past year papers
-   5. __Always tag the lecture__
+   1. Sample questions from the lecture 
+   2. Technical explanations, things to memorise - make questions out of all of them
+   3. Add tutorial questions in
+   4. Textbook questions as well
+   5. Past year papers
+   6. __Always tag the lecture__
 3. Build a cheat sheet out of the lecture notes (both long form and short form)
    1. Long form = lecture notes in point form
    2. Short form = 1 A4 sized page of shorthand notes
