@@ -1,4 +1,4 @@
-1. Study Basics
+### Study Basics
    1. Manage your time in five minutes a day 
       1. Jot down to-dos and deadlines on a list whenever they arrive
       2. Transfer these to-dos and deadlines to your calendar every morning
@@ -13,7 +13,7 @@
       1. Try to fit as much work as possible into the morning and afternoon, between classes and obligations
       2. Study in isolated locations
       3. Take a break every hour
-2. Quizzes and exams
+### Quizzes and exams
    1. Take smart notes
       1. Always take the best notes possible in class
       2. For nontechnical courses, capture the big ideas by taking notes in the question/evidence/conclusion format.
@@ -72,7 +72,7 @@
       3. Proceed from easy to hard
       4. Outline essays
       5. Check your work
-3. Essays and Papers
+### Essays and Papers
    1. Target a titillating topic
       1. Find interesting connections between broad themes or individuals in your discussions/readings
    2. Conduct a thesis hunting expedition
