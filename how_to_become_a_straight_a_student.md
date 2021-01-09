@@ -8,7 +8,8 @@
    ```
    2. *Declare war on procrastination*
    ```
-      1. Keep a work progress log, and record every day what you set out to accomplish and whether you accomplished it or not.
+      1. Keep a work progress log, and record every day what you set out to 
+         accomplish and whether you accomplished it or not.
       2. When working, eat healthy snacks to maximise your energy.
       3. Transform horrible tasks into a big event to help you gather the energy to start.
       4. Build work routines to make steady progress on your obligations 
@@ -153,34 +154,48 @@
                2. List topics that *may* help the thesis
                3. If you have at least 2 sources for all the topics from 1 and at least 1 for most of the topics in 2, stop
    ```
-   5. Craft a powerful story
+   5. *Craft a powerful story*
+   ```
       1. Formulate your argument 
          1. have a vision of what the overall structure of the paper should be - some focal point
          2. Your paper must extend previous discussion
          3. Introduce a thesis and spell out how it relates to existing work on similar issues
-         4. Support the thesis with careful reasoning and references to existing arguments, evidence and primary sources.
-         5. Introduce some final prognostications about extending the argument and its potential impact on the field as a whole
+         4. Support the thesis with careful reasoning and references to existing arguments, 
+            evidence and primary sources.
+         5. Introduce some final prognostications about extending the argument and its potential 
+            impact on the field as a whole
          6. There is no set order for presenting the above 4 points
          7. Find a good paper like the NYT to read and clear your mind to get in the right mind for writing
          8. Grab source material from the previous stack and let the facts play around in your mind.
          9. Soak up the material until you fully internalise it.
       2. Construct an outline
          1. For each self contained point, put them in a skeleton. Reordering comes next
-         2. Rearrange those self-contained points until they flow. If you realise you should insert a topic here that you did not research, go back to step 1 and find those topics
+         2. Rearrange those self-contained points until they flow. 
+            If you realise you should insert a topic here that you did not research, go back to step 1 and find those topics
       3. Filling in the details of your topic outline
-         1. Once the topic skeleton is done and sources for all unsupported topics are found, it’s time to fill in the supporting details.
-            1. Below each header in your topic skeleton, reference the evidence. Sharing information between topics at this point is fine. Use only your photocopy notes and their accompanying annotations.
-   6. Consult your expert panel
+         1. Once the topic skeleton is done and sources for all unsupported topics are found, 
+            it’s time to fill in the supporting details.
+            1. Below each header in your topic skeleton, reference the evidence. 
+               Sharing information between topics at this point is fine. 
+               Use only your photocopy notes and their accompanying annotations.
+   ```
+   6. *Consult your expert panel*
+   ```
       1. Bring your topic skeleton to your professor
-   7. Write without the agony
+   ```
+   7. *Write without the agony*
+   ```
       1. Edit after you finish writing and don’t research after you start writing
       2. Write in a quiet place
       3. Follow your outline and move slowly
-   8. Fix, don’t fixate
+   ```
+   8. *Fix, don’t fixate*
+   ```
       1. Argument adjustment pass - focus on structural issues. Reorder points or delete needless expositions
-      2. Out loud pass - read your paper aloud - mark awkward constructions or grammatical mistakes on the printout of your paper
+      2. Out loud pass - read your paper aloud - 
+         mark awkward constructions or grammatical mistakes on the printout of your paper
       3. Sanity pass - read your paper in its final form once for any stray mistakes.
-
+   ```
 
 
 
