@@ -58,27 +58,36 @@
          2. Think of solutions on the go
          3. Always write solutions properly to avoid rework
    ```
-   3. Marshal your resources
+   3. *Marshal your resources*
+   ```
       1. Studying should feel effortless
          1. You should chip away at each module every day
+         
       2. You should only be studying your own notes before a test
+      
       3. Define the challenge
          1. Which lecture notes/ tutorials are tested?
          2. How many of each type of question is tested?
          3. Are cheat sheets allowed?
+      
       4. Build a study guide for non-technical material
          1. Print out corresponding notes for each lecture and reading assignment 
          2. Gather notes on each separate lecture and assignment topic by topic
          3. You should have a study guide containing one pile for each general topic
+      
       5. Construct a mega-problem set for technical material
          1. Start a pile for each topic
          2. Put technical explanation questions inside
          3. Put sample problems from lecture notes inside
          4. Put tutorial questions inside
          5. Put Past Year Papers inside
+      
       6. Use flashcards for rote learning
+      
       7. Do organisation and review on different days
-   4. Conquer the material
+   ```
+   4. *Conquer the material*
+   ```
       1. Always quiz-and-recall
          1. Studying should be to pass your own diagnostic questions
             1. For nontechnical courses, the QEC framework provides all your questions
@@ -86,14 +95,19 @@
             3. Take one day to make your quizzes, a few hours to review
             4. For technical courses, do your mega problem set - start from technical explanations, then the lecture problems
             5. Take test papers under timed conditions
-   5. Invest in academic disaster insurance
-      1. Put question marks where you are unclear, and clarify them right after the lecture
-   6. Provide A+ Answers
+   ```
+   5. *Invest in academic disaster insurance*
+   ```
+            1. Put question marks where you are unclear, and clarify them right after the lecture
+   ```
+   6. *Provide A+ Answers*
+   ```
       1. Review the whole exam first, and answer questions later
       2. Build a time budget and leave out ten minutes for a buffer
       3. Proceed from easy to hard
       4. Outline essays
       5. Check your work
+   ```
 ### Essays and Papers
    1. Target a titillating topic
       1. Find interesting connections between broad themes or individuals in your discussions/readings
