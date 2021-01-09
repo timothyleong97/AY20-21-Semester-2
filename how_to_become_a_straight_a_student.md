@@ -22,28 +22,42 @@
       3. Take a break every hour
    ```
 ### Quizzes and exams
-   1. Take smart notes
+   1. *Take smart notes*
+   ```
       1. Always take the best notes possible in class
+      
       2. For nontechnical courses, capture the big ideas by taking notes in the question/evidence/conclusion format.
          1. If it’s a discussion class, note down interesting observations you heard or thought about.
          2. Share those that you had.
-      3. For technical courses, **record as many sample problems as possible**. 
-         1. Don’t read ahead, but bring your notes to class and listen attentively. Anything you don’t understand, use the readings to fill in the blanks.
+         
+      3. For technical courses, record as many sample problems as possible. 
+         1. Don’t read ahead, but bring your notes to class and listen attentively. 
+            Anything you don’t understand, use the readings to fill in the blanks.
             1. First priority: Record the problem statement and answer.
             2. Second priority: Question the confusing
             3. Third priority: Copy the steps to solving the problem
             4. Fourth priority: Annotate the steps - technical explanations
-   2. Demote your assignments
+   ```
+   2. *Demote your assignments*
+   ```
       1. Work constantly and plan your schedule on Sunday
-      2. For non-technical courses, prioritise readings that **make arguments**, over those that **describe an event or person**, over those that **provide only context**.
+      
+      2. For non-technical courses, prioritise readings 
+            - that make arguments, over those that 
+            - describe an event or person, over those that 
+            - provide only context.
+      
       3. When reading, use the question-evidence-conclusion framework. 
          1. Find the question, then the conclusion, then the evidence.
-         2. Copy the question and conclusion, as well as the evidence in point form with references to the original material, into a study guide. 
+         2. Copy the question and conclusion, 
+            as well as the evidence in point form with references to the original material, into a study guide. 
          3. Read for arguments, not facts.
+      
       4. Don’t work alone on problem sets.
          1. Find people who can help quickly
          2. Think of solutions on the go
          3. Always write solutions properly to avoid rework
+   ```
    3. Marshal your resources
       1. Studying should feel effortless
          1. You should chip away at each module every day
