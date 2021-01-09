@@ -98,7 +98,7 @@
    ```
    5. *Invest in academic disaster insurance*
    ```
-            1. Put question marks where you are unclear, and clarify them right after the lecture
+      1. Put question marks where you are unclear, and clarify them right after the lecture
    ```
    6. *Provide A+ Answers*
    ```
@@ -109,19 +109,30 @@
       5. Check your work
    ```
 ### Essays and Papers
-   1. Target a titillating topic
+   1. *Target a titillating topic*
+   ```
       1. Find interesting connections between broad themes or individuals in your discussions/readings
-   2. Conduct a thesis hunting expedition
+   ```
+   2. *Conduct a thesis hunting expedition*
+   ```
       1. For critical analysis, review the reading notes and lecture notes related to the essay prompt for your thesis
-      2. For research papers, start general - look at general history books and target the bibliographies.  From the sources used, find the most promising ones and read those
-      3. Find things to compare or unexamined influences on a particular subject. Find strong evidence for this connection you want to examine. Find an interesting topic and targeted thesis
-   3. Seek a second opinion
+      2. For research papers, start general - look at general history books and target the bibliographies.  
+         From the sources used, find the most promising ones and read those
+      3. Find things to compare or unexamined influences on a particular subject. 
+      4. Find strong evidence for this connection you want to examine. 
+      5. Find an interesting topic and targeted thesis
+   ```
+   3. *Seek a second opinion*
+   ```
       1. Check with the professor whether your topic and thesis are ok
          1. Is your idea appropriate
          2. Does it cover too much
          3. Is it too simple
-      2. For research papers, list your sources to the professor and collect more sources
-   4. Research like a machine
+         
+      2. For research papers, list your sources to the professor and get suggestions for more sources
+   ```
+   4. *Research like a machine*
+   ```
       1. Find sources
          1. Those that you find in step 2 are general like biographies or textbooks
          2. You need specific sources like journal articles or books about a specific event
@@ -135,11 +146,13 @@
             5. make personal copies of all sources - write the bibliographical info
                1. Also photocopy the bibliography of the source so that you can cite their citations
             6. Annotate the material
-               1. Skim for gems and write down the page number and what this point is in your annotations which you will staple to your photocopy of the source
+               1. Skim for gems and write down the page number and 
+                  what this point is in your annotations which you will staple to your photocopy of the source
             7. Decide if you are done
                1. List down all topics that support your thesis
                2. List topics that *may* help the thesis
                3. If you have at least 2 sources for all the topics from 1 and at least 1 for most of the topics in 2, stop
+   ```
    5. Craft a powerful story
       1. Formulate your argument 
          1. have a vision of what the overall structure of the paper should be - some focal point
