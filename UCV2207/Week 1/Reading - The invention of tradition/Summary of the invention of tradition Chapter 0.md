@@ -83,4 +83,4 @@ Question: What does invented tradition reveal to us?
 
 - indicators of new social movements
 - reveals how humans use their past to guide their lives
-- highlights instruments with which governments do social engineering - nations are modern, but they try o act qntique
+- highlights instruments with which governments do social engineering - nations are modern, but they try to act antique

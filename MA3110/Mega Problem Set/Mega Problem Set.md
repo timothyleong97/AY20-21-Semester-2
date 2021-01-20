@@ -149,13 +149,13 @@ ____
 > > >
 > > >  $L$ is the limit of $(x_n)$ if for every $\epsilon > 0$, there exists $K = K(\epsilon) \in \mathbb{N}$ such that $|x_n - L| < \epsilon, ~~\forall n \geq K$.
 > >
-> > So given an $\epsilon$, we are assured that there is a deleted $\delta$-neighbourhood around $x = a$ within which $f(x)$ is less than $\epsilon$ - distance from $L$. Then we take that $\delta$ and say that since our sequence is convergent, there must be some point after which all members of that sequence is less than $\delta$ - distance from a. So combining $\ref{second}$ with $\ref{first}$, we see that
+> > So given an $\epsilon$, we are assured that there is a deleted $\delta$-neighbourhood around $x = a$ within which $f(x)$ is less than $\epsilon$ - distance from $L$. Then we take that $\delta$ and say that since our sequence is convergent, there must be some point after which all members of that sequence is less than $\delta$ - distance from a. So 
 > >
 > > ​																			When $n \geq K$,  
 > >
 > > ​																   we get $0 < |x_n - a| < \delta$, 
 > >
-> > ​													  which by $\ref{first}$ implies that $|f(x_n) - L| < \epsilon$.
+> > ​													  which implies that $|f(x_n) - L| < \epsilon$.
 >
 > > To prove the reverse direction, we prove the contrapositive statement. Meaning, we show that if $\lim_{x\rightarrow a} f(x) \neq L$, then there cannot be any sequence for which $f(x_n) \rightarrow L$. 
 > >
@@ -189,7 +189,7 @@ ___
    0 < |x - a| < \delta \Longrightarrow f(x) > 0.
    $$
 
-   > Answer: By our supposition, we know that for all $\epsilon > 0$, there exists $\delta = \delta(\epsilon) > 0$ such that
+   > Answer: Since $\lim_{x\rightarrow a}f(x)$ exists, we know that for all $\epsilon > 0$, there exists $\delta = \delta(\epsilon) > 0$ such that
    > $$
    > 0 < |x - a| < \delta \Longrightarrow |f(x) - L| < \epsilon. \tag {1}
    > $$
@@ -211,9 +211,8 @@ ___
    0 < |x - a| < \delta \Longrightarrow f(x) \neq 0.
    $$
 
-   > Answer: We note that equation (1) still holds true. Furthermore, if $L > 0$, then our previous answer holds. It suffices to show that if $L < 0$, then there exists $\delta > 0$ such that the above expression is true.
+   > Answer: If $L > 0$, then our previous answer holds. It suffices to show that if $L < 0$, then there exists $\delta > 0$ such that the above expression is true. Let $\epsilon = -L > 0$. Then there must be a $\delta_0$ such that 
    >
-   > Let $\epsilon = -L > 0$. Then there must be a $\delta_0$ such that 
    > $$
    > 0 < |x - a| < \delta_0 \Longrightarrow |f(x) - L| < -L.
    > $$
@@ -518,7 +517,7 @@ ___
 
 > Answer: 
 >
-> ![image-20210113082915101](C:\Users\User\Documents\AY20-21-Semester-2\MA3110\Mega Problem Set\Mega Problem Set.assets\image-20210113082915101.png)
+> <img src="C:\Users\User\Documents\AY20-21-Semester-2\MA3110\Mega Problem Set\Mega Problem Set.assets\image-20210113082915101.png" alt="image-20210113082915101" style="zoom:67%;" />
 >
 > ![image-20210113082949267](C:\Users\User\Documents\AY20-21-Semester-2\MA3110\Mega Problem Set\Mega Problem Set.assets\image-20210113082949267.png)
 
@@ -554,7 +553,7 @@ ___
 >
 > First recall the definition of inverse functions.
 >
-> ![image-20210113085401633](C:\Users\User\Documents\AY20-21-Semester-2\MA3110\Mega Problem Set\Mega Problem Set.assets\image-20210113085401633.png)
+> <img src="C:\Users\User\Documents\AY20-21-Semester-2\MA3110\Mega Problem Set\Mega Problem Set.assets\image-20210113085401633.png" alt="image-20210113085401633" style="zoom:67%;" />
 >
 > **Intuition**: If the inverse wasn’t monotone and continuous, then if you interchange the role of $f$ and $f^{-1}$, you get a contradiction.
 >
@@ -608,10 +607,275 @@ ___
 
 *[Chapter 6, Page 9]* 
 
-![image-20210113092052862](C:\Users\User\Documents\AY20-21-Semester-2\MA3110\Mega Problem Set\Mega Problem Set.assets\image-20210113092052862.png)
+<img src="C:\Users\User\Documents\AY20-21-Semester-2\MA3110\Mega Problem Set\Mega Problem Set.assets\image-20210113092052862.png" alt="image-20210113092052862" style="zoom:50%;" />
 
-> Answer: // need completeness property of Q
+> Answer: Combine the answer for $r \in \mathbb{N}$ and $r = \frac{1}{q} ~\forall q \in \mathbb{N}$ 
 >
-> // also use ![image-20210113092317722](C:\Users\User\Documents\AY20-21-Semester-2\MA3110\Mega Problem Set\Mega Problem Set.assets\image-20210113092317722.png)
+
+# Lecture 3
+
+<img src="C:\Users\User\Documents\AY20-21-Semester-2\MA3110\Mega Problem Set\Mega Problem Set.assets\image-20210118080825683.png" alt="image-20210118080825683" style="zoom:50%;" />
+
+> **Answer:** <img src="C:\Users\User\Documents\AY20-21-Semester-2\MA3110\Mega Problem Set\Mega Problem Set.assets\image-20210118080840341.png" alt="image-20210118080840341" style="zoom:50%;" />
+
+Question: What is the *absolute maximum* of $f$ on $\mathbb{I}$?
+
+> Answer: <img src="C:\Users\User\Documents\AY20-21-Semester-2\MA3110\Mega Problem Set\Mega Problem Set.assets\image-20210118081048476.png" alt="image-20210118081048476" style="zoom:50%;" />
+
+Question: What is the Extreme Value Theorem?
+
+> Answer: A continuous function in an interval must have a highest and lowest point
+
+Question: What is the relative maximum of $f$?
+
+> Answer: <img src="C:\Users\User\Documents\AY20-21-Semester-2\MA3110\Mega Problem Set\Mega Problem Set.assets\image-20210118081233792.png" alt="image-20210118081233792" style="zoom:50%;" />
 >
-> + and chain rule
+> <img src="C:\Users\User\Documents\AY20-21-Semester-2\MA3110\Mega Problem Set\Mega Problem Set.assets\image-20210118081255153.png" alt="image-20210118081255153" style="zoom:50%;" />
+
+Question: What is a relative extremum?
+
+> Answer: <img src="C:\Users\User\Documents\AY20-21-Semester-2\MA3110\Mega Problem Set\Mega Problem Set.assets\image-20210118081420561.png" alt="image-20210118081420561" style="zoom:50%;" />
+
+Question: When is an absolute maximum not a relative minimum? 
+
+> Answer: <img src="C:\Users\User\Documents\AY20-21-Semester-2\MA3110\Mega Problem Set\Mega Problem Set.assets\image-20210118081505455.png" alt="image-20210118081505455" style="zoom:50%;" />
+
+Question: Prove the following lemma (for f’(c) < 0, the proof is similar):
+
+<img src="C:\Users\User\Documents\AY20-21-Semester-2\MA3110\Mega Problem Set\Mega Problem Set.assets\image-20210118081634817.png" alt="image-20210118081634817" style="zoom:50%;" />
+
+
+
+Diagram to illustrate: ![image-20210118081950983](C:\Users\User\Documents\AY20-21-Semester-2\MA3110\Mega Problem Set\Mega Problem Set.assets\image-20210118081950983.png)
+
+![image-20210118082112086](C:\Users\User\Documents\AY20-21-Semester-2\MA3110\Mega Problem Set\Mega Problem Set.assets\image-20210118082112086.png)
+
+> Answer: First note that $f(c)$ cannot be a relative maximum, since in $(c, c + \delta), f(x) > f(c)$. If $f'(c) \neq 0$, the point cannot be a relative maximum or minimum.
+>
+> <img src="C:\Users\User\Documents\AY20-21-Semester-2\MA3110\Mega Problem Set\Mega Problem Set.assets\image-20210118082833534.png" alt="image-20210118082833534" style="zoom:67%;" />  
+
+> Intuition: Use the property that $x - c < 0$ and $x - c > 0$ to say that since there must be some region where the secant gradient is positive, in that region $f(x) - f(c)$ is positive/negative. 
+
+<img src="C:\Users\User\Documents\AY20-21-Semester-2\MA3110\Mega Problem Set\Mega Problem Set.assets\image-20210118082928486.png" alt="image-20210118082928486" style="zoom:67%;" />
+
+Question: Show that a function can have a relative extremum but no derivative there.
+
+> **Answer**: <img src="C:\Users\User\Documents\AY20-21-Semester-2\MA3110\Mega Problem Set\Mega Problem Set.assets\image-20210118083116043.png" alt="image-20210118083116043" style="zoom:67%;" />
+
+Question: Show that f’(c) = 0 does not imply that $f$ has a relative extremum.
+
+> **Answer**: <img src="C:\Users\User\Documents\AY20-21-Semester-2\MA3110\Mega Problem Set\Mega Problem Set.assets\image-20210118083212971.png" alt="image-20210118083212971" style="zoom:67%;" />
+
+## Rolle’s Theorem
+
+<img src="C:\Users\User\Documents\AY20-21-Semester-2\MA3110\Mega Problem Set\Mega Problem Set.assets\image-20210118083304293.png" alt="image-20210118083304293" style="zoom:67%;" />
+
+![image-20210118083430586](C:\Users\User\Documents\AY20-21-Semester-2\MA3110\Mega Problem Set\Mega Problem Set.assets\image-20210118083430586.png)
+
+Question: Prove the theorem.
+
+> Answer: 
+>
+> First case: f is constant. <img src="C:\Users\User\Documents\AY20-21-Semester-2\MA3110\Mega Problem Set\Mega Problem Set.assets\image-20210118083505430.png" alt="image-20210118083505430" style="zoom:50%;" />
+>
+> 
+>
+> 
+>
+> Second case: <img src="C:\Users\User\Documents\AY20-21-Semester-2\MA3110\Mega Problem Set\Mega Problem Set.assets\image-20210118083717480.png" alt="image-20210118083717480" style="zoom: 67%;" />
+>
+> <img src="C:\Users\User\Documents\AY20-21-Semester-2\MA3110\Mega Problem Set\Mega Problem Set.assets\image-20210118083834554.png" alt="image-20210118083834554" style="zoom:67%;" />
+
+> Intuition: For the second case, f is not constant. So the extremums cannot be the same. Since f(a) = f(b), if they were  both the max and min, then you would contradict the second sentence. So 1 of the extremums must be an interior point. Being an extremum, the derivative must be 0.
+
+## Mean Value Theorem
+
+Prove <img src="C:\Users\User\Documents\AY20-21-Semester-2\MA3110\Mega Problem Set\Mega Problem Set.assets\image-20210118084000600.png" alt="image-20210118084000600" style="zoom:67%;" />
+
+Diagram: ![image-20210118084529670](C:\Users\User\Documents\AY20-21-Semester-2\MA3110\Mega Problem Set\Mega Problem Set.assets\image-20210118084529670.png)
+
+> Answer: Note that you can swap a and b. the negative signs will cancel out. 
+>
+> Define a function that slants f to the red line.
+>
+> <img src="C:\Users\User\Documents\AY20-21-Semester-2\MA3110\Mega Problem Set\Mega Problem Set.assets\image-20210118084745303.png" alt="image-20210118084745303" style="zoom:67%;" />
+>
+> The equation of the red line is 
+> $$
+> \frac{y - f(a)}{x - a} = \frac{f(b) - f(a)}{b - a}
+> $$
+> so
+> $$
+> y = f(a) + (x - a)\frac{f(b) - f(a)}{b - a}
+> $$
+> <img src="C:\Users\User\Documents\AY20-21-Semester-2\MA3110\Mega Problem Set\Mega Problem Set.assets\image-20210118085013442.png" alt="image-20210118085013442" style="zoom:67%;" />
+>
+> > **Intuition:** Slant a and b down to the x axis and use rolle’s theorem to show that there is a c whose derivative is 0.
+
+Question: <img src="C:\Users\User\Documents\AY20-21-Semester-2\MA3110\Mega Problem Set\Mega Problem Set.assets\image-20210118085055424.png" alt="image-20210118085055424" style="zoom:50%;" />
+
+> Answer:  Prove by cases. First let x > 0
+>
+> <img src="C:\Users\User\Documents\AY20-21-Semester-2\MA3110\Mega Problem Set\Mega Problem Set.assets\image-20210118085511710.png" alt="image-20210118085511710" style="zoom:67%;" />
+>
+> Case 2: x < 0
+>
+> <img src="C:\Users\User\Documents\AY20-21-Semester-2\MA3110\Mega Problem Set\Mega Problem Set.assets\image-20210118085739103.png" alt="image-20210118085739103" style="zoom:67%;" />
+>
+> Case 3: x = 0, then $e^x = 1 + x$.
+
+Question: Prove the following:
+
+<img src="C:\Users\User\Documents\AY20-21-Semester-2\MA3110\Mega Problem Set\Mega Problem Set.assets\image-20210118090616012.png" alt="image-20210118090616012" style="zoom:67%;" />
+
+> **Answer:**  
+>
+> ![image-20210118090848709](C:\Users\User\Documents\AY20-21-Semester-2\MA3110\Mega Problem Set\Mega Problem Set.assets\image-20210118090848709.png)
+
+Question: What does it mean for a function to be increasing/decreasing?
+
+> Answer:
+>
+> <img src="C:\Users\User\Documents\AY20-21-Semester-2\MA3110\Mega Problem Set\Mega Problem Set.assets\image-20210118090936530.png" alt="image-20210118090936530" style="zoom:67%;" />
+
+Question: Prove
+
+<img src="C:\Users\User\Documents\AY20-21-Semester-2\MA3110\Mega Problem Set\Mega Problem Set.assets\image-20210118091039285.png" alt="image-20210118091039285" style="zoom:67%;" /> 
+
+> Answer: ![image-20210118091254630](C:\Users\User\Documents\AY20-21-Semester-2\MA3110\Mega Problem Set\Mega Problem Set.assets\image-20210118091254630.png)
+
+Question: Prove
+
+<img src="C:\Users\User\Documents\AY20-21-Semester-2\MA3110\Mega Problem Set\Mega Problem Set.assets\image-20210118091357671.png" alt="image-20210118091357671" style="zoom:67%;" />
+
+> Answer: 
+>
+> Let $a < x_1 < x_2 < b$. Then since $f$ is increasing on $(a,b)$, we know that $f(x_2) \geq f(x_1)$. 
+>
+> By MVT, there exists $c \in [x_1, x_2]$ such that $f'(c) = \frac{f(x_2) - f(x_1)}{x_2 - x_1}$.
+>
+> Since $f(x_2) - f(x_1) \geq 0$ and $x_2 - x_1 > 0$, we have $f'(c) \geq 0$. 
+
+Question:
+
+<img src="C:\Users\User\Documents\AY20-21-Semester-2\MA3110\Mega Problem Set\Mega Problem Set.assets\image-20210118091426087.png" alt="image-20210118091426087" style="zoom:67%;" />
+
+> Answer: 
+>
+> Assume $f'(x) > 0 ~\forall x \in (a,b)$. There exists $c \in [x_1, x_2]$ such that $f'(c) = \frac{f(x_2) - f(x_1)}{x_2 - x_1}$ by the Mean Value Theorem.
+>
+> Since $f'(c) > 0$ by assumption,  $x_2 - x_1 > 0$, $f(x_2) > f(x_1)$. 
+>
+> To show the converse is false: Let $f(x) = x^3$. 
+>
+> Take any $\delta > 0$. We can show that $f$ is strictly increasing on $(-\delta, \delta)$, yet $f'(0) = 0$.
+>
+> First we show that $f$ is strictly increasing.
+>
+> Then we show that $f'(0) = 3x^2 = 0$.  
+
+Question: Prove
+
+<img src="C:\Users\User\Documents\AY20-21-Semester-2\MA3110\Mega Problem Set\Mega Problem Set.assets\image-20210118091738718.png" alt="image-20210118091738718" style="zoom: 67%;" />
+
+![image-20210118091928842](C:\Users\User\Documents\AY20-21-Semester-2\MA3110\Mega Problem Set\Mega Problem Set.assets\image-20210118091928842.png)
+
+> Answer: 
+>
+> ![image-20210118092545160](C:\Users\User\Documents\AY20-21-Semester-2\MA3110\Mega Problem Set\Mega Problem Set.assets\image-20210118092545160.png)
+>
+> Intuition: Use MVT. Write out the derivative of the internal point. Then what do you know about the f’, or of the numerator or denominator? Then from there, what can you say about the other 2 expressions? 
+
+# Lecture 4
+
+**Recap**: 
+
+![image-20210120081646874](C:\Users\User\Documents\AY20-21-Semester-2\MA3110\Mega Problem Set\Mega Problem Set.assets\image-20210120081646874.png)
+
+## Higher derivatives
+
+Question: What does $C^n(I)$ mean?
+
+>  <img src="C:\Users\User\Documents\AY20-21-Semester-2\MA3110\Mega Problem Set\Mega Problem Set.assets\image-20210120082229834.png" alt="image-20210120082229834" style="zoom:67%;" />
+
+Questions: What is $C^0(I)$? Is $ C^\infty(I)$ bigger than $C^2(I)$?
+
+> Answer: <img src="C:\Users\User\Documents\AY20-21-Semester-2\MA3110\Mega Problem Set\Mega Problem Set.assets\image-20210120082400106.png" alt="image-20210120082400106" style="zoom:67%;" />
+
+
+
+Question:
+
+<img src="C:\Users\User\Documents\AY20-21-Semester-2\MA3110\Mega Problem Set\Mega Problem Set.assets\image-20210120082605749.png" alt="image-20210120082605749" style="zoom: 67%;" />
+
+> Answer: By Mean Value Theorem,  $\exists c_1 \in (a, x_0)$ such that $f'(c_1) = \frac{f(x_0) - f(a)}{x_0 - a}$.  Similarly,  $\exists c_2 \in (x_0, b)$ such that $f'(c_2) = \frac{f(b) - f(x_0)}{b - x_0}$.  Since $f'(c_1) = f'(c_2)$ because $(x_0, f(x_0))$ is co-linear with $(a, f(a))$ and $(b, f(b                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       ))$, by Rolle’s theorem, there exists a point $c_3 \in(a, b)$ such that $f''(c_3) = 0$.
+
+Question: Prove:
+
+<img src="C:\Users\User\Documents\AY20-21-Semester-2\MA3110\Mega Problem Set\Mega Problem Set.assets\image-20210120083444549.png" alt="image-20210120083444549" style="zoom:67%;" />
+
+
+
+<img src="C:\Users\User\Documents\AY20-21-Semester-2\MA3110\Mega Problem Set\Mega Problem Set.assets\image-20210120083839265.png" alt="image-20210120083839265" style="zoom:67%;" />![image-20210120084009107](C:\Users\User\Documents\AY20-21-Semester-2\MA3110\Mega Problem Set\Mega Problem Set.assets\image-20210120084009107.png)
+
+<img src="C:\Users\User\Documents\AY20-21-Semester-2\MA3110\Mega Problem Set\Mega Problem Set.assets\image-20210120083839265.png" alt="image-20210120083839265" style="zoom:67%;" /><img src="C:\Users\User\Documents\AY20-21-Semester-2\MA3110\Mega Problem Set\Mega Problem Set.assets\image-20210120084009107.png" alt="image-20210120084009107" style="zoom:67%;" />
+
+## Cauchy’s Mean Value Theorem
+
+Prove: 
+
+<img src="C:\Users\User\Documents\AY20-21-Semester-2\MA3110\Mega Problem Set\Mega Problem Set.assets\image-20210120084113126.png" alt="image-20210120084113126" style="zoom: 50%;" />
+
+$g'(x) \neq 0$ is to avoid $g'(c) = 0$ and $g(b) = g(a)$. 
+
+Proof:
+
+<img src="C:\Users\User\Documents\AY20-21-Semester-2\MA3110\Mega Problem Set\Mega Problem Set.assets\image-20210120084452417.png" alt="image-20210120084452417" style="zoom: 67%;" />
+
+<img src="C:\Users\User\Documents\AY20-21-Semester-2\MA3110\Mega Problem Set\Mega Problem Set.assets\image-20210120085138587.png" alt="image-20210120085138587" style="zoom:67%;" />
+
+## L’Hospital’s rule
+
+<img src="C:\Users\User\Documents\AY20-21-Semester-2\MA3110\Mega Problem Set\Mega Problem Set.assets\image-20210120090119139.png" alt="image-20210120090119139" style="zoom:67%;" />
+
+*Part 2 proof will be in Tutorial 3*
+
+Question: Prove part 1.
+
+> **Answer:**
+>
+> ![image-20210120091842639](C:\Users\User\Documents\AY20-21-Semester-2\MA3110\Mega Problem Set\Mega Problem Set.assets\image-20210120091842639.png)
+
+Question:
+
+<img src="C:\Users\User\Documents\AY20-21-Semester-2\MA3110\Mega Problem Set\Mega Problem Set.assets\image-20210120091907227.png" alt="image-20210120091907227" style="zoom:50%;" />
+
+> Answer: 
+> $$
+> \frac{d}{dx}\sin x = cos x, \frac{d}{dx} \sqrt{x} = \frac{1}{2\sqrt{x}}, 2\sqrt{x}\cos x = 0 \text{ when } x = 0
+> $$
+
+<img src="C:\Users\User\Documents\AY20-21-Semester-2\MA3110\Mega Problem Set\Mega Problem Set.assets\image-20210120092042609.png" alt="image-20210120092042609" style="zoom:50%;" />
+
+Question: state the rule for right hand limits
+
+> Answer:
+>
+> <img src="C:\Users\User\Documents\AY20-21-Semester-2\MA3110\Mega Problem Set\Mega Problem Set.assets\image-20210120092318783.png" alt="image-20210120092318783" style="zoom:50%;" />
+
+Question: 
+
+<img src="C:\Users\User\Documents\AY20-21-Semester-2\MA3110\Mega Problem Set\Mega Problem Set.assets\image-20210120092532196.png" alt="image-20210120092532196" style="zoom:67%;" />
+
+Question: 
+
+<img src="C:\Users\User\Documents\AY20-21-Semester-2\MA3110\Mega Problem Set\Mega Problem Set.assets\image-20210120092711640.png" alt="image-20210120092711640" style="zoom: 67%;" />
+
+Question: **Answering technique: Use substitution**
+
+![image-20210120093314241](C:\Users\User\Documents\AY20-21-Semester-2\MA3110\Mega Problem Set\Mega Problem Set.assets\image-20210120093314241.png)
+
+## Taylor’s theorem
+
+
+

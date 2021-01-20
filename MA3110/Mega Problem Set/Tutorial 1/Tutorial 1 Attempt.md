@@ -121,3 +121,89 @@ Let $f(x) = x^5+4x+3$ , $x \in \mathbb{R}$ and let $g = f^{-1}: \mathbb{R} \righ
 > Let $c \in \mathbb{R}$ be such that $f(c) = 8$. Then $g'(f(c)) = \frac{1}{f'(c)}$ by the inverse function theorem.
 >
 > Then $c = 1$. So $g'(8) = \frac{1}{f'(1)} = \frac{1}{9}$.
+
+## Question 6
+
+Use the Mean Value Theorem to prove that 
+$$
+\sqrt{1 + x} < 1 + \frac{1}{2}x ~~\forall x > 0
+$$
+
+> Answer:
+>
+> Let $f(x) = \sqrt{1 + x}$. Then $f'(x) = \frac{1}{2\sqrt{1 + x}}$ for all $x > 0$.
+>
+> By the Mean Value Theorem, there exists $c_1 \in (0, x)$ such that
+> $$
+> \begin{align*}
+> 	f'(c_1) = \frac{f(x) - f(0)}{x - 0} \\
+> 	\implies \frac{1}{2\sqrt{1 + c_1}} = \frac{\sqrt{1 + x} - 1}{x}\\
+> 	\implies \frac{x - 2\sqrt{1 + c_1}(\sqrt{1 + x} - 1)}{2x\sqrt{1 + c_1}} &= 0.
+> \end{align*}
+> $$
+> Multiply both sides of the equation by $2x\sqrt{1 + c_1} > 0$ to get
+> $$
+> x - 2\sqrt{1 + c_1}(\sqrt{1 + x} - 1) = 0
+> $$
+> which gives 
+> $$
+> x - 2\sqrt{1 + c_1}\sqrt{1 + x} - 2\sqrt{1 + c_1} = 0.
+> $$
+> Rearranging terms, we get
+> $$
+> -2\sqrt{1 + c_1}\sqrt{1 + x} = -2\sqrt{1 + c_1} - x
+> $$
+> and when we multiply both sides of the equation by $-2\sqrt{1 + c_1}$, we get
+> $$
+> \sqrt{1 + x} = 1 + \frac{1}{2\sqrt{1 + c_1}}x < 1 + \frac{1}{2}x
+> $$
+> because $c_1 > 0 \implies \sqrt{1 + c_1} > 1$. 
+
+## Question 7
+
+Let $I$ be an open interval and let $c \in I$. Let $f: I \rightarrow \mathbb{R}$ be **continuous** and define $g: I \rightarrow \mathbb{R}$ by $g(x) = |f(x)|$ for $x\in I$. 
+
+1. Give an example where $f$ is differentiable at $c$ but $g$ is not differentiable at $c$.
+
+> Answer: 
+>
+> Let $f(x) = x$ and $c = 0$. 
+
+2. Prove that if $g$ is differentiable at $c$, then $f$ is also differentiable at $c$.
+
+> Answer: Given $g$ is differentiable at $c$, there exists a function $\phi : I \rightarrow \mathbb{R}$ such that $\phi$ is continuous at $c$,
+> $$
+> g(x) - g(c) = |f(x)| - |f(c)| = \phi(x)(x - c) ~\text{ for } x \in I,
+> $$
+> and $g'(c) = \phi(c)$.
+>
+> ___
+>
+> Suppose $f(c) > 0$. Then since $f$ is continuous at $c$, this means that 
+> $$
+> \lim_{x \rightarrow c} f(x) = f(c) > 0.
+> $$
+> There exists $\delta > 0$ such that
+> $$
+> 0 < |x - c| < \delta \implies f(x) > 0.
+> $$
+> Then in $(c - \delta, c + \delta)$, $f(x) = g(x)$ so $f$ is differentiable.
+>
+> ___
+>
+> Suppose $f(c) < 0$. Then since $f$ is continuous at $c$, this means that 
+> $$
+> \lim_{x\rightarrow c}f(x) = f(c) < 0.
+> $$
+>  There exists $\delta > 0$ such that 
+> $$
+> 0 < |x - c| < \delta \implies f(x) < 0.
+> $$
+> Then in $(c - \delta, c + \delta)$, $f(x) = - g(x)$ so $f$ is differentiable.
+>
+> ___
+>
+> Suppose $f(c) = 0$. Then $g(c) = 0$ which makes $g(c)$ an absolute minimum. Since $c$ is an interior point of $I$, by the Interior Extremum Theorem, $g'(c) = \phi(c) = 0$. Since $f(x) = sign(f(x))g(x)$, $f(x) = sign(f(x))\phi(x)(x-c)$. Not sure how to show that $sign(f(x))\phi(x)$ is continuous.
+
+3. Compute $f'(c)$ in terms of $g'(c)$.
+

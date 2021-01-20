@@ -1,4 +1,4 @@
-What is Singapore’s national heritage?
+# What is Singapore’s national heritage?
 
 - Culturally, Singaporeans espouse Confucian Asian values
 - Art, culture and lifestyles are influenced by Malay, Chinese and Indian cultures
@@ -26,3 +26,8 @@ What role do museums play?
 Interesting terms
 
 - sanitised instant Asia experience
+
+
+
+Angkor wat - Cambodian or Thai?
+

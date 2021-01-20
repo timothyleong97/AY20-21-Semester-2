@@ -29,10 +29,10 @@ Why is heritage tourism increasing in popularity?
 
 Did Singapore’s heritage gain or lose from tourist interests?
 
-Raflles Hotel may not have been rebuilt had the tourism industry not taken an interest in it
+Raffles Hotel may not have been rebuilt had the tourism industry not taken an interest in it
 
 Conclusion?
-Colonial heritage has been claimed by government and the residents and is being employed by them to define and assert national identiy and for ttourism. The relationship is not one of subservience
+Colonial heritage has been claimed by government and the residents and is being employed by them to define and assert national identity and for tourism. The relationship is not one of subservience
 
 
 
@@ -46,7 +46,7 @@ What makes Raffles hotel authentic?
 
 ___
 
-WHen NYT stopped being black and white -it lost some authenticity
+When NYT stopped being black and white -it lost some authenticity
 
 +++
 
@@ -62,6 +62,15 @@ ___
 
 Dissonant heritage - what is dissonant heritage? 
 
-WHat does it mean for Singapore to be born as a postcolonial country?
+What does it mean for Singapore to be born as a postcolonial country?
 
 Is the postcolonial condition of Singapore symptomatic of post colonial societies or was there <u>what did Peirero say</u>
+
+People may not have to visit a place often - French and the Eiffel
+
+Who are the natives of a country?
+
+Open Veins of Latin America: Five Centuries of the Pillage of a Continent 
+
+- 
+
