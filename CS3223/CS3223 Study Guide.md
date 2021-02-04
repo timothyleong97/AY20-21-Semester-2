@@ -82,3 +82,7 @@
 15. What is a unit of memory in this section called?
 
 > Buffer frame
+
+Use this website for B+ tree
+
+![image-20210129080340032](C:\Users\User\Documents\AY20-21-Semester-2\CS3223\CS3223 Study Guide.assets\image-20210129080340032.png)

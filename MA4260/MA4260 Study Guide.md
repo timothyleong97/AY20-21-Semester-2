@@ -91,10 +91,10 @@
    - NPP (Non-pre-emptive priority, e.g. computer time-sharing)
    - GD (General discipline) *(no assumptions)*
 
-5. Queue capacity 
+5. **System capacity** 
    - Finite or infinite (if a queue runs indefinitely, it’s easier to analyse)
    - Assumed to be in a single line
-6. Calling population
+6. **Calling population**
    - Finite or infinite (if the population is indefinitely large, it’s easier to analyse as well)
 
 ### Kendall-Lee Notation 
@@ -109,7 +109,7 @@
 >
 > ![image-20210114084233069](C:\Users\User\Documents\AY20-21-Semester-2\MA4260\MA4260 Study Guide.assets\image-20210114084233069.png)
 >
-> In the case of memoryless-ness, any value can be “ground zero”,
+> In the case of memoryless-ness, any value can be “ground zero”.
 
 ### The waiting time paradox
 
@@ -133,7 +133,7 @@ It seems unintuitive that if you arrive randomly between bus arrivals, you shoul
 
 ## Lecture 1.1 The Exponential Distribution and the Poisson Process
 
-## Exponential distribution
+### Exponential distribution
 
 We say that a random variable $T \sim \exp(\alpha)$ has an **exponential distribution with parameter** $\alpha$ if it’s probability density function is 
 
@@ -150,19 +150,19 @@ $$
 
 > If someone tells you that some distribution is modelled as an exponential one, you **need to check if one of $\mathbb{E}(T)$ and $\text{Var}(T)$ is a square of the other.** Also plot the histogram to see if it looks like the curve above.
 
-## Poisson distribution
+### Poisson distribution
 
 <img src="C:\Users\User\Documents\AY20-21-Semester-2\MA4264\MA4264 Study Guide.assets\image-20210113172808585.png" alt="image-20210113172808585" style="zoom:50%;" />
 
 > To check if a distribution is Poisson, check if the **sample mean is roughly equal to the sample variance.**
 
-## Counting process
+### Counting process
 
 <img src="C:\Users\User\Documents\AY20-21-Semester-2\MA4264\MA4264 Study Guide.assets\image-20210113173007803.png" alt="image-20210113173007803" style="zoom:50%;" />
 
 <img src="C:\Users\User\Documents\AY20-21-Semester-2\MA4264\MA4264 Study Guide.assets\image-20210113173037034.png" alt="image-20210113173037034" style="zoom:50%;" />
 
-## Poisson process
+### Poisson process
 
 <img src="C:\Users\User\Documents\AY20-21-Semester-2\MA4264\MA4264 Study Guide.assets\image-20210113173236118.png" alt="image-20210113173236118" style="zoom:50%;" />
 
@@ -232,10 +232,347 @@ $$
 
 <img src="C:\Users\User\Documents\AY20-21-Semester-2\MA4260\MA4260 Study Guide.assets\image-20210115165554771.png" alt="image-20210115165554771" style="zoom:50%;" />
 
-## Erlang distribution
+### Erlang distribution
 
 <img src="C:\Users\User\Documents\AY20-21-Semester-2\MA4260\MA4260 Study Guide.assets\image-20210115165707187.png" alt="image-20210115165707187" style="zoom:50%;" />
 
 ​	<img src="C:\Users\User\Documents\AY20-21-Semester-2\MA4260\MA4260 Study Guide.assets\image-20210115170755192.png" alt="image-20210115170755192"  />
 
 <img src="C:\Users\User\Documents\AY20-21-Semester-2\MA4260\MA4260 Study Guide.assets\image-20210115170639351.png" alt="image-20210115170639351" style="zoom:50%;" />
+
+## Lecture 1.2 Birth-death processes
+
+### Introduction
+
+<img src="C:\Users\User\Documents\AY20-21-Semester-2\MA4260\MA4260 Study Guide.assets\image-20210120160626792.png" alt="image-20210120160626792" style="zoom:80%;" />
+
+### Formal definition
+
+![image-20210120160837518](C:\Users\User\Documents\AY20-21-Semester-2\MA4260\MA4260 Study Guide.assets\image-20210120160837518.png)
+
+> $n$ is allowed to depend on the state, i.e. $\lambda_n$ and $\mu_n$ can be different for different $n$.  Also state means customers being served + customers in line.
+
+### Rate diagram
+
+<img src="C:\Users\User\Documents\AY20-21-Semester-2\MA4260\MA4260 Study Guide.assets\image-20210120161048347.png" alt="image-20210120161048347" style="zoom:67%;" />
+
+> Note: <img src="C:\Users\User\Documents\AY20-21-Semester-2\MA4260\MA4260 Study Guide.assets\image-20210120161249084.png" alt="image-20210120161249084" style="zoom:80%;" />
+
+<img src="C:\Users\User\Documents\AY20-21-Semester-2\MA4260\MA4260 Study Guide.assets\image-20210120161315492.png" alt="image-20210120161315492" style="zoom:80%;" />
+
+<img src="C:\Users\User\Documents\AY20-21-Semester-2\MA4260\MA4260 Study Guide.assets\image-20210120161553788.png" alt="image-20210120161553788" style="zoom: 80%;" />
+
+### Example
+
+<img src="C:\Users\User\Documents\AY20-21-Semester-2\MA4260\MA4260 Study Guide.assets\image-20210120161719059.png" alt="image-20210120161719059" style="zoom:80%;" />
+
+<img src="C:\Users\User\Documents\AY20-21-Semester-2\MA4260\MA4260 Study Guide.assets\image-20210120161806300.png" alt="image-20210120161806300" style="zoom:80%;" />
+
+<img src="C:\Users\User\Documents\AY20-21-Semester-2\MA4260\MA4260 Study Guide.assets\image-20210120161936281.png" alt="image-20210120161936281" style="zoom:80%;" />
+
+<img src="C:\Users\User\Documents\AY20-21-Semester-2\MA4260\MA4260 Study Guide.assets\image-20210120162156495.png" alt="image-20210120162156495" style="zoom:80%;" />
+
+> State must stop at 12 because you can only have 12 people in the system - that is, in one hour, you have 2 being served and 10 on hold at any instant.
+
+### Checks
+
+<img src="C:\Users\User\Documents\AY20-21-Semester-2\MA4260\MA4260 Study Guide.assets\image-20210120164047267.png" alt="image-20210120164047267" style="zoom:80%;" />
+
+> **Intuition:** If birth rate always eclipses the death rate, the system cannot have a steady state.
+
+<img src="C:\Users\User\Documents\AY20-21-Semester-2\MA4260\MA4260 Study Guide.assets\image-20210120164425084.png" alt="image-20210120164425084" style="zoom:80%;" />
+
+### Steady state
+
+<img src="C:\Users\User\Documents\AY20-21-Semester-2\MA4260\MA4260 Study Guide.assets\image-20210120164502575.png" alt="image-20210120164502575" style="zoom:80%;" />
+
+#### Proof
+
+<img src="C:\Users\User\Documents\AY20-21-Semester-2\MA4260\MA4260 Study Guide.assets\image-20210120164834703.png" alt="image-20210120164834703" style="zoom:80%;" />
+
+<img src="C:\Users\User\Documents\AY20-21-Semester-2\MA4260\MA4260 Study Guide.assets\image-20210120165035125.png" alt="image-20210120165035125" style="zoom:80%;" />
+
+> It’s like the max-flow, min-cut argument where how much outflow you see from state n must be matched by inflow into state n
+
+#### Balance Equations
+
+![image-20210120165420180](C:\Users\User\Documents\AY20-21-Semester-2\MA4260\MA4260 Study Guide.assets\image-20210120165420180.png)
+
+> Our goal was to understand what $p_i$ is for all $i \in \{0\cdots n\}$
+
+<img src="C:\Users\User\Documents\AY20-21-Semester-2\MA4260\MA4260 Study Guide.assets\image-20210120165536500.png" alt="image-20210120165536500" style="zoom:80%;" />
+
+> Name of the game: Start from $p_0$, then $p_1\cdots$ 
+
+<img src="C:\Users\User\Documents\AY20-21-Semester-2\MA4260\MA4260 Study Guide.assets\image-20210120165821306.png" alt="image-20210120165821306" style="zoom:80%;" />
+
+### Example
+
+<img src="C:\Users\User\Documents\AY20-21-Semester-2\MA4260\MA4260 Study Guide.assets\image-20210120170046630.png" alt="image-20210120170046630" style="zoom:80%;" />
+
+<img src="C:\Users\User\Documents\AY20-21-Semester-2\MA4260\MA4260 Study Guide.assets\image-20210120170423181.png" alt="image-20210120170423181" style="zoom:80%;" />
+
+### Important things to remember
+
+<img src="C:\Users\User\Documents\AY20-21-Semester-2\MA4260\MA4260 Study Guide.assets\image-20210120170447485.png" alt="image-20210120170447485" style="zoom:80%;" />
+
+## Lecture 1.3 Performance measures
+
+<img src="C:\Users\User\Documents\AY20-21-Semester-2\MA4260\MA4260 Study Guide.assets\image-20210122160906321.png" alt="image-20210122160906321" style="zoom:50%;" />
+
+> **Explanation**: For $L$, N is the total number of people in the system. $s$ is the number of people being served. $\bar\lambda$ is the average number of people who successfully enter the system
+
+### Little’s Law
+
+<img src="C:\Users\User\Documents\AY20-21-Semester-2\MA4260\MA4260 Study Guide.assets\image-20210122161535713.png" alt="image-20210122161535713" style="zoom: 67%;" />e
+
+### Example
+
+<img src="C:\Users\User\Documents\AY20-21-Semester-2\MA4260\MA4260 Study Guide.assets\image-20210122161915121.png" alt="image-20210122161903226" style="zoom: 67%;" />
+
+
+
+![image-20210122161905633](C:\Users\User\Documents\AY20-21-Semester-2\MA4260\MA4260 Study Guide.assets\image-20210122161905633.png)
+
+<img src="C:\Users\User\Documents\AY20-21-Semester-2\MA4260\MA4260 Study Guide.assets\image-20210122161955442.png" alt="image-20210122161955442" style="zoom: 50%;" />
+
+> Setup is always that you know the $\lambda$ and $\mu$. But once you know either 1 of the 4 things in the rectangle above, you can derive the rest.
+>
+> The $p_n$ for L is the steady state probabilities. So we must compute those first then get L. 
+
+### Proof
+
+<img src="C:\Users\User\Documents\AY20-21-Semester-2\MA4260\MA4260 Study Guide.assets\image-20210122162538631.png" alt="image-20210122162538631" style="zoom: 50%;" />
+
+### M/M/1 Systems
+
+- Arrival memoryless
+- Service process memoryless
+- 1 server only
+
+<img src="C:\Users\User\Documents\AY20-21-Semester-2\MA4260\MA4260 Study Guide.assets\image-20210122163157529.png" alt="image-20210122163157529" style="zoom:50%;" />
+
+> Name of the game is to represent all the $p_i$ as a multiple of $p_0$.
+
+<img src="C:\Users\User\Documents\AY20-21-Semester-2\MA4260\MA4260 Study Guide.assets\image-20210122163459948.png" alt="image-20210122163459948" style="zoom:50%;" />
+
+<img src="C:\Users\User\Documents\AY20-21-Semester-2\MA4260\MA4260 Study Guide.assets\image-20210122163752999.png" alt="image-20210122163752999" style="zoom:50%;" />
+
+### Example
+
+<img src="C:\Users\User\Documents\AY20-21-Semester-2\MA4260\MA4260 Study Guide.assets\image-20210122163851025.png" alt="image-20210122163851025" style="zoom: 50%;" />
+
+<img src="C:\Users\User\Documents\AY20-21-Semester-2\MA4260\MA4260 Study Guide.assets\image-20210122164047016.png" alt="image-20210122164047016" style="zoom:50%;" />
+
+> For question 4, on average means in the steady state so entering rate = leaving rate
+
+<img src="C:\Users\User\Documents\AY20-21-Semester-2\MA4260\MA4260 Study Guide.assets\image-20210122164057943.png" alt="image-20210122164057943" style="zoom:50%;" />
+
+<img src="C:\Users\User\Documents\AY20-21-Semester-2\MA4260\MA4260 Study Guide.assets\image-20210122164247630.png" alt="image-20210122164247630" style="zoom: 50%;" />
+
+> **Add on**: You can weight the expected waiting cost or expected service cost according to your priorities.
+>
+> **Intuition**: Use Little’s law to derive expected number of customers per hour, multiply that by hourly cost per customer and add cost of hiring the server.
+
+<img src="C:\Users\User\Documents\AY20-21-Semester-2\MA4260\MA4260 Study Guide.assets\image-20210122165336465.png" alt="image-20210122165336465" />
+
+
+
+<img src="C:\Users\User\Documents\AY20-21-Semester-2\MA4260\MA4260 Study Guide.assets\image-20210122165704236.png" alt="image-20210122165704236" style="zoom:80%;" />
+
+<img src="C:\Users\User\Documents\AY20-21-Semester-2\MA4260\MA4260 Study Guide.assets\image-20210122165827677.png" alt="image-20210122165827677" style="zoom: 67%;" />
+
+> The cursor is covering $p_n$. 
+
+<img src="C:\Users\User\Documents\AY20-21-Semester-2\MA4260\MA4260 Study Guide.assets\image-20210122170013930.png" alt="image-20210122170013930" style="zoom: 67%;" />
+
+> **Intuition for the second equation:** Use the formula $p_{n + 1} = \rho^{n + 1}p_0$. 
+
+<img src="C:\Users\User\Documents\AY20-21-Semester-2\MA4260\MA4260 Study Guide.assets\image-20210122170717819.png" alt="image-20210122170717819" style="zoom:67%;" />
+
+<img src="C:\Users\User\Documents\AY20-21-Semester-2\MA4260\MA4260 Study Guide.assets\image-20210129192944655.png" alt="image-20210129192944655" style="zoom:67%;" />
+
+<img src="C:\Users\User\Documents\AY20-21-Semester-2\MA4260\MA4260 Study Guide.assets\image-20210122170857668.png" alt="image-20210122170857668" style="zoom:67%;" />
+
+> On average means in the steady state, then entering rate = leaving rate.
+
+<img src="C:\Users\User\Documents\AY20-21-Semester-2\MA4260\MA4260 Study Guide.assets\image-20210122171315397.png" alt="image-20210122171315397" style="zoom:67%;" />
+
+<img src="C:\Users\User\Documents\AY20-21-Semester-2\MA4260\MA4260 Study Guide.assets\image-20210122171544740.png" alt="image-20210122171544740" style="zoom: 67%;" />
+
+> $\exp((K - n)\lambda)$ is because of the minimum of exponentials
+
+<img src="C:\Users\User\Documents\AY20-21-Semester-2\MA4260\MA4260 Study Guide.assets\image-20210122171853397.png" alt="image-20210122171853397" style="zoom: 67%;" />
+
+## Recap
+
+
+
+<img src="C:\Users\User\Documents\AY20-21-Semester-2\MA4260\MA4260 Study Guide.assets\image-20210127161154487.png" alt="image-20210127161154487" style="zoom: 50%;" />
+
+> How to check if steady state exists:
+>
+> ![image-20210127161733141](C:\Users\User\Documents\AY20-21-Semester-2\MA4260\MA4260 Study Guide.assets\image-20210127161733141.png)
+>
+> ![image-20210127161944880](C:\Users\User\Documents\AY20-21-Semester-2\MA4260\MA4260 Study Guide.assets\image-20210127161944880.png)
+
+![image-20210127162056661](C:\Users\User\Documents\AY20-21-Semester-2\MA4260\MA4260 Study Guide.assets\image-20210127162056661.png)
+
+### Little’s law
+
+<img src="C:\Users\User\Documents\AY20-21-Semester-2\MA4260\MA4260 Study Guide.assets\image-20210127162431989.png" alt="image-20210127162431989" style="zoom: 67%;" />
+
+> Little’s Law holds for G/G/s
+
+![image-20210127162730876](C:\Users\User\Documents\AY20-21-Semester-2\MA4260\MA4260 Study Guide.assets\image-20210127162730876.png)
+
+> GD / K / infty: Steady state always exists (slide 18)
+
+## Lecture 1.4 Finite source queueing models
+
+<img src="C:\Users\User\Documents\AY20-21-Semester-2\MA4260\MA4260 Study Guide.assets\image-20210127163301564.png" alt="image-20210127163301564" style="zoom: 67%;" />
+
+<img src="C:\Users\User\Documents\AY20-21-Semester-2\MA4260\MA4260 Study Guide.assets\image-20210127163410086.png" alt="image-20210127163410086" style="zoom:67%;" />
+
+<img src="C:\Users\User\Documents\AY20-21-Semester-2\MA4260\MA4260 Study Guide.assets\image-20210127163612739.png" alt="image-20210127163612739" style="zoom:67%;" />
+
+<img src="C:\Users\User\Documents\AY20-21-Semester-2\MA4260\MA4260 Study Guide.assets\image-20210127163730068.png" alt="image-20210127163730068" style="zoom:67%;" />
+
+![image-20210127165120073](C:\Users\User\Documents\AY20-21-Semester-2\MA4260\MA4260 Study Guide.assets\image-20210127165120073.png)
+
+![image-20210127165552539](C:\Users\User\Documents\AY20-21-Semester-2\MA4260\MA4260 Study Guide.assets\image-20210127165552539.png)
+
+![image-20210127165822763](C:\Users\User\Documents\AY20-21-Semester-2\MA4260\MA4260 Study Guide.assets\image-20210127165822763.png)
+
+### Example
+
+![image-20210127165944234](C:\Users\User\Documents\AY20-21-Semester-2\MA4260\MA4260 Study Guide.assets\image-20210127165944234.png)
+
+![image-20210127170151501](C:\Users\User\Documents\AY20-21-Semester-2\MA4260\MA4260 Study Guide.assets\image-20210127170151501.png)
+
+![image-20210127170441147](C:\Users\User\Documents\AY20-21-Semester-2\MA4260\MA4260 Study Guide.assets\image-20210127170441147.png)
+
+![image-20210127170817309](C:\Users\User\Documents\AY20-21-Semester-2\MA4260\MA4260 Study Guide.assets\image-20210127170817309.png)
+
+![image-20210127171041505](C:\Users\User\Documents\AY20-21-Semester-2\MA4260\MA4260 Study Guide.assets\image-20210127171041505.png)
+
+![image-20210127171312035](C:\Users\User\Documents\AY20-21-Semester-2\MA4260\MA4260 Study Guide.assets\image-20210127171312035.png)
+
+![image-20210127171505902](C:\Users\User\Documents\AY20-21-Semester-2\MA4260\MA4260 Study Guide.assets\image-20210127171505902.png)
+
+![image-20210127171735608](C:\Users\User\Documents\AY20-21-Semester-2\MA4260\MA4260 Study Guide.assets\image-20210127171735608.png)
+
+![image-20210127172017800](C:\Users\User\Documents\AY20-21-Semester-2\MA4260\MA4260 Study Guide.assets\image-20210127172017800.png)
+
+![image-20210127172557892](C:\Users\User\Documents\AY20-21-Semester-2\MA4260\MA4260 Study Guide.assets\image-20210127172557892.png)
+
+![image-20210127173054808](C:\Users\User\Documents\AY20-21-Semester-2\MA4260\MA4260 Study Guide.assets\image-20210127173054808.png)
+
+## Lecture 1.6
+
+### GI / G / $\infty$ 
+
+- Infinite number of servers means no waiting time
+
+<img src="C:\Users\User\Documents\AY20-21-Semester-2\MA4260\MA4260 Study Guide.assets\image-20210129161020333.png" alt="image-20210129161020333" style="zoom: 67%;" />
+
+<img src="C:\Users\User\Documents\AY20-21-Semester-2\MA4260\MA4260 Study Guide.assets\image-20210129161324016.png" alt="image-20210129161324016" style="zoom: 67%;" />
+
+<img src="C:\Users\User\Documents\AY20-21-Semester-2\MA4260\MA4260 Study Guide.assets\image-20210129161530466.png" alt="image-20210129161530466" style="zoom:67%;" />
+
+> State is number of customers in the system (queueing + being served). Since number of servers is $\infty$,  combined service rate is number of customers $\times$ service rate per server
+
+### Example
+
+<img src="C:\Users\User\Documents\AY20-21-Semester-2\MA4260\MA4260 Study Guide.assets\image-20210129161940438.png" alt="image-20210129161940438" style="zoom:67%;" />
+
+> State is number of ice cream shops that are open. Arrival rate is 3 per year, service rate is 1/10 per year.
+
+<img src="C:\Users\User\Documents\AY20-21-Semester-2\MA4260\MA4260 Study Guide.assets\image-20210129162315102.png" alt="image-20210129162315102" style="zoom:67%;" />
+
+### Models with priority queue discipline
+
+<img src="C:\Users\User\Documents\AY20-21-Semester-2\MA4260\MA4260 Study Guide.assets\image-20210129163113394.png" alt="image-20210129163113394" style="zoom:67%;" />
+
+> Pre-emptive - examples could be ER doctors, operating systems (sudden ddos-es)
+
+<img src="C:\Users\User\Documents\AY20-21-Semester-2\MA4260\MA4260 Study Guide.assets\image-20210129163728664.png" alt="image-20210129163728664" style="zoom:67%;" />
+
+![image-20210129164013065](C:\Users\User\Documents\AY20-21-Semester-2\MA4260\MA4260 Study Guide.assets\image-20210129164013065.png)
+
+> PP means pre-emptive priority, with infinite queue lengths and calling populations
+>
+
+<img src="C:\Users\User\Documents\AY20-21-Semester-2\MA4260\MA4260 Study Guide.assets\image-20210129164853070.png" alt="image-20210129164853070" style="zoom:67%;" />
+
+<img src="C:\Users\User\Documents\AY20-21-Semester-2\MA4260\MA4260 Study Guide.assets\image-20210129165238240.png" alt="image-20210129165238240" style="zoom:67%;" />
+
+<img src="C:\Users\User\Documents\AY20-21-Semester-2\MA4260\MA4260 Study Guide.assets\image-20210129170002534.png" alt="image-20210129170002534" style="zoom:67%;" />
+
+<img src="C:\Users\User\Documents\AY20-21-Semester-2\MA4260\MA4260 Study Guide.assets\image-20210129165831890.png" alt="image-20210129165831890" style="zoom:67%;" />
+
+<img src="C:\Users\User\Documents\AY20-21-Semester-2\MA4260\MA4260 Study Guide.assets\image-20210129170018330.png" alt="image-20210129170018330" style="zoom:67%;" />
+
+<img src="C:\Users\User\Documents\AY20-21-Semester-2\MA4260\MA4260 Study Guide.assets\image-20210129170218426.png" alt="image-20210129170218426" style="zoom:67%;" />
+
+<img src="C:\Users\User\Documents\AY20-21-Semester-2\MA4260\MA4260 Study Guide.assets\image-20210129170410198.png" alt="image-20210129170410198" style="zoom:67%;" />
+
+<img src="C:\Users\User\Documents\AY20-21-Semester-2\MA4260\MA4260 Study Guide.assets\image-20210129170535143.png" alt="image-20210129170535143" style="zoom:67%;" />
+
+![image-20210203160436529](C:\Users\User\Documents\AY20-21-Semester-2\MA4260\MA4260 Study Guide.assets\image-20210203160436529.png)
+
+## Lecture 7
+
+<img src="C:\Users\User\Documents\AY20-21-Semester-2\MA4260\MA4260 Study Guide.assets\image-20210203160846750.png" alt="image-20210203160846750" style="zoom: 50%;" />
+
+### M/M/s: NPP/ $\infty$ /$\infty$ 
+
+<img src="C:\Users\User\Documents\AY20-21-Semester-2\MA4260\MA4260 Study Guide.assets\image-20210203161014968.png" alt="image-20210203161014968" style="zoom: 33%;" />
+
+<img src="C:\Users\User\Documents\AY20-21-Semester-2\MA4260\MA4260 Study Guide.assets\image-20210203161921205.png" alt="image-20210203161921205" style="zoom:33%;" />
+
+<img src="C:\Users\User\Documents\AY20-21-Semester-2\MA4260\MA4260 Study Guide.assets\image-20210203162409950.png" alt="image-20210203162409950" style="zoom: 33%;" />
+
+<img src="C:\Users\User\Documents\AY20-21-Semester-2\MA4260\MA4260 Study Guide.assets\image-20210203162640388.png" alt="image-20210203162640388" style="zoom: 33%;" />
+
+<img src="C:\Users\User\Documents\AY20-21-Semester-2\MA4260\MA4260 Study Guide.assets\image-20210203163135624.png" alt="image-20210203163135624" style="zoom:33%;" />![image-20210203163418558](C:\Users\User\Documents\AY20-21-Semester-2\MA4260\MA4260 Study Guide.assets\image-20210203163418558.png)
+
+<img src="C:\Users\User\Documents\AY20-21-Semester-2\MA4260\MA4260 Study Guide.assets\image-20210203163434100.png" alt="image-20210203163434100" style="zoom:33%;" />
+
+<img src="C:\Users\User\Documents\AY20-21-Semester-2\MA4260\MA4260 Study Guide.assets\image-20210203163556577.png" alt="image-20210203163556577" style="zoom:33%;" />
+
+<img src="C:\Users\User\Documents\AY20-21-Semester-2\MA4260\MA4260 Study Guide.assets\image-20210203163759748.png" alt="image-20210203163759748" style="zoom:33%;" />
+
+> $P(N \geq 2)$ is a result from $M/M/s$  systems
+
+![image-20210203164251993](C:\Users\User\Documents\AY20-21-Semester-2\MA4260\MA4260 Study Guide.assets\image-20210203164251993.png)
+
+![image-20210203164306072](C:\Users\User\Documents\AY20-21-Semester-2\MA4260\MA4260 Study Guide.assets\image-20210203164306072.png)
+
+![image-20210203164328180](C:\Users\User\Documents\AY20-21-Semester-2\MA4260\MA4260 Study Guide.assets\image-20210203164328180.png)
+
+
+
+<img src="C:\Users\User\Documents\AY20-21-Semester-2\MA4260\MA4260 Study Guide.assets\image-20210203164338924.png" alt="image-20210203164338924" style="zoom:67%;" />
+
+![image-20210203164112101](C:\Users\User\Documents\AY20-21-Semester-2\MA4260\MA4260 Study Guide.assets\image-20210203164112101.png)
+
+![image-20210203164200660](C:\Users\User\Documents\AY20-21-Semester-2\MA4260\MA4260 Study Guide.assets\image-20210203164200660.png)
+
+### Recap
+
+![image-20210203165510842](C:\Users\User\Documents\AY20-21-Semester-2\MA4260\MA4260 Study Guide.assets\image-20210203165510842.png)
+
+![image-20210203165529729](C:\Users\User\Documents\AY20-21-Semester-2\MA4260\MA4260 Study Guide.assets\image-20210203165529729.png)
+
+![image-20210203165648296](C:\Users\User\Documents\AY20-21-Semester-2\MA4260\MA4260 Study Guide.assets\image-20210203165648296.png)
+
+## Non-exponential models
+
+![image-20210203165933440](C:\Users\User\Documents\AY20-21-Semester-2\MA4260\MA4260 Study Guide.assets\image-20210203165933440.png)
+
+![image-20210203170450707](C:\Users\User\Documents\AY20-21-Semester-2\MA4260\MA4260 Study Guide.assets\image-20210203170450707.png)
+
+![image-20210203170528345](C:\Users\User\Documents\AY20-21-Semester-2\MA4260\MA4260 Study Guide.assets\image-20210203170528345.png)
+
+![image-20210203170714570](C:\Users\User\Documents\AY20-21-Semester-2\MA4260\MA4260 Study Guide.assets\image-20210203170714570.png)

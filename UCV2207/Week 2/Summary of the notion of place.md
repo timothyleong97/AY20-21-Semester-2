@@ -303,7 +303,7 @@
     multiple meanings it holds in different quarters,
     inscribing heritage into the concrete elements which
     constitute place furnishes the state a strategy of
-    codifying and naturalking its version of heritage.
+    codifying and naturalizing its version of heritage.
     By becoming part of the everyday, visible world,
     the landscape text of a place acts as a powerful
     ideological tool which:

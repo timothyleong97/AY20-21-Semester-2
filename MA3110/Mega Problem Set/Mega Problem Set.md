@@ -483,7 +483,7 @@ ___
 
 Recap:
 
-![image-20210113080752075](C:\Users\User\Documents\AY20-21-Semester-2\MA3110\Mega Problem Set\Mega Problem Set.assets\image-20210113080752075.png)
+![image-20210125100249068](C:\Users\User\Documents\AY20-21-Semester-2\MA3110\Mega Problem Set\Mega Problem Set.assets\image-20210125100249068.png)
 
 ___
 
@@ -613,6 +613,10 @@ ___
 >
 
 # Lecture 3
+
+## Recap
+
+<img src="C:\Users\User\Documents\AY20-21-Semester-2\MA3110\Mega Problem Set\Mega Problem Set.assets\image-20210125094742377.png" alt="image-20210125094742377" style="zoom:67%;" />
 
 <img src="C:\Users\User\Documents\AY20-21-Semester-2\MA3110\Mega Problem Set\Mega Problem Set.assets\image-20210118080825683.png" alt="image-20210118080825683" style="zoom:50%;" />
 
@@ -750,11 +754,9 @@ Question: Prove
 
 > Answer: 
 >
-> Let $a < x_1 < x_2 < b$. Then since $f$ is increasing on $(a,b)$, we know that $f(x_2) \geq f(x_1)$. 
+> By definition of limits, the derivative at a point must be equal to the left-hand and right-hand derivative.
 >
-> By MVT, there exists $c \in [x_1, x_2]$ such that $f'(c) = \frac{f(x_2) - f(x_1)}{x_2 - x_1}$.
->
-> Since $f(x_2) - f(x_1) \geq 0$ and $x_2 - x_1 > 0$, we have $f'(c) \geq 0$. 
+> Then look at the right hand derivative of any point c in the range (a, b). The denominator x - c > 0 and the numerator f(x) - f(c) >= 0 so the derivative must be non-negative.
 
 Question:
 
@@ -809,6 +811,10 @@ Question:
 <img src="C:\Users\User\Documents\AY20-21-Semester-2\MA3110\Mega Problem Set\Mega Problem Set.assets\image-20210120082605749.png" alt="image-20210120082605749" style="zoom: 67%;" />
 
 > Answer: By Mean Value Theorem,  $\exists c_1 \in (a, x_0)$ such that $f'(c_1) = \frac{f(x_0) - f(a)}{x_0 - a}$.  Similarly,  $\exists c_2 \in (x_0, b)$ such that $f'(c_2) = \frac{f(b) - f(x_0)}{b - x_0}$.  Since $f'(c_1) = f'(c_2)$ because $(x_0, f(x_0))$ is co-linear with $(a, f(a))$ and $(b, f(b                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       ))$, by Rolle’s theorem, there exists a point $c_3 \in(a, b)$ such that $f''(c_3) = 0$.
+>
+> Prof’s answer:
+>
+> <img src="C:\Users\User\Documents\AY20-21-Semester-2\MA3110\Mega Problem Set\Mega Problem Set.assets\image-20210125082105447.png" alt="image-20210125082105447" style="zoom: 67%;" />
 
 Question: Prove:
 
@@ -816,7 +822,7 @@ Question: Prove:
 
 
 
-<img src="C:\Users\User\Documents\AY20-21-Semester-2\MA3110\Mega Problem Set\Mega Problem Set.assets\image-20210120083839265.png" alt="image-20210120083839265" style="zoom:67%;" />![image-20210120084009107](C:\Users\User\Documents\AY20-21-Semester-2\MA3110\Mega Problem Set\Mega Problem Set.assets\image-20210120084009107.png)
+
 
 <img src="C:\Users\User\Documents\AY20-21-Semester-2\MA3110\Mega Problem Set\Mega Problem Set.assets\image-20210120083839265.png" alt="image-20210120083839265" style="zoom:67%;" /><img src="C:\Users\User\Documents\AY20-21-Semester-2\MA3110\Mega Problem Set\Mega Problem Set.assets\image-20210120084009107.png" alt="image-20210120084009107" style="zoom:67%;" />
 
@@ -875,7 +881,202 @@ Question: **Answering technique: Use substitution**
 
 ![image-20210120093314241](C:\Users\User\Documents\AY20-21-Semester-2\MA3110\Mega Problem Set\Mega Problem Set.assets\image-20210120093314241.png)
 
+# Lecture 5
+
+## Recap
+
+![image-20210125081309685](C:\Users\User\Documents\AY20-21-Semester-2\MA3110\Mega Problem Set\Mega Problem Set.assets\image-20210125081309685.png)
+
 ## Taylor’s theorem
 
 
 
+Question: Prove
+
+<img src="C:\Users\User\Documents\AY20-21-Semester-2\MA3110\Mega Problem Set\Mega Problem Set.assets\image-20210125082613223.png" alt="image-20210125082613223" style="zoom:67%;" />
+
+> **Proof using Rolle’s theorem**
+>
+> ![image-20210125084012489](C:\Users\User\Documents\AY20-21-Semester-2\MA3110\Mega Problem Set\Mega Problem Set.assets\image-20210125084012489.png)
+
+
+
+<img src="C:\Users\User\Documents\AY20-21-Semester-2\MA3110\Mega Problem Set\Mega Problem Set.assets\image-20210125084632197.png" alt="image-20210125084632197" style="zoom:67%;" />
+
+Verify:
+
+<img src="C:\Users\User\Documents\AY20-21-Semester-2\MA3110\Mega Problem Set\Mega Problem Set.assets\image-20210125084747950.png" alt="image-20210125084747950" style="zoom:67%;" />
+
+<img src="C:\Users\User\Documents\AY20-21-Semester-2\MA3110\Mega Problem Set\Mega Problem Set.assets\image-20210125085031168.png" alt="image-20210125085031168" style="zoom:67%;" />
+
+## Examples of using Taylor’s theorem
+
+![image-20210125090218993](C:\Users\User\Documents\AY20-21-Semester-2\MA3110\Mega Problem Set\Mega Problem Set.assets\image-20210125090218993.png)
+
+<img src="C:\Users\User\Documents\AY20-21-Semester-2\MA3110\Mega Problem Set\Mega Problem Set.assets\image-20210125090943109.png" alt="image-20210125090943109" style="zoom:67%;" />
+
+<img src="C:\Users\User\Documents\AY20-21-Semester-2\MA3110\Mega Problem Set\Mega Problem Set.assets\image-20210125101108280.png" alt="image-20210125101108280" style="zoom:67%;" />
+
+<img src="C:\Users\User\Documents\AY20-21-Semester-2\MA3110\Mega Problem Set\Mega Problem Set.assets\image-20210125091844643.png" alt="image-20210125091844643" style="zoom:67%;" />
+
+<img src="C:\Users\User\Documents\AY20-21-Semester-2\MA3110\Mega Problem Set\Mega Problem Set.assets\image-20210125091932970.png" alt="image-20210125091932970" style="zoom:67%;" />
+
+Answer the following
+
+<img src="C:\Users\User\Documents\AY20-21-Semester-2\MA3110\Mega Problem Set\Mega Problem Set.assets\image-20210125091955246.png" alt="image-20210125091955246" style="zoom:67%;" />
+
+> Answer:  
+>
+> ![image-20210125092729813](C:\Users\User\Documents\AY20-21-Semester-2\MA3110\Mega Problem Set\Mega Problem Set.assets\image-20210125092729813.png)
+
+Question:
+
+![image-20210125093047625](C:\Users\User\Documents\AY20-21-Semester-2\MA3110\Mega Problem Set\Mega Problem Set.assets\image-20210125093047625.png)
+
+> Part 1 by prof:
+>
+> ![image-20210125093453177](C:\Users\User\Documents\AY20-21-Semester-2\MA3110\Mega Problem Set\Mega Problem Set.assets\image-20210125093453177.png)
+>
+> > Intuition: So we want to show that c is in the range of 0 and x. Since x is fixed, we let $x_0 = x$ because in Taylor’s theorem we fix an $x_0$ and choose an x. So then the x in Taylor’s theorem will be 0 for us because we know a = 0 in Taylor’s theorem can be chosen for x.
+>
+> (ii) ![image-20210127082625389](C:\Users\User\Documents\AY20-21-Semester-2\MA3110\Mega Problem Set\Mega Problem Set.assets\image-20210127082625389.png)
+>
+> > Insight: Apply the same thing in part 1 to $f(1)$ in part 2. Lol how did I miss it 
+
+# Lecture 6
+
+## Recap
+
+![image-20210127080608559](C:\Users\User\Documents\AY20-21-Semester-2\MA3110\Mega Problem Set\Mega Problem Set.assets\image-20210127080608559.png)
+
+![image-20210127081609712](C:\Users\User\Documents\AY20-21-Semester-2\MA3110\Mega Problem Set\Mega Problem Set.assets\image-20210127081609712.png)
+
+
+
+> Note: $f \in C^\infty \not \Longrightarrow f = \text{Taylor's series of f}$. 
+
+## Riemann Integral
+
+<img src="C:\Users\User\Documents\AY20-21-Semester-2\MA3110\Mega Problem Set\Mega Problem Set.assets\image-20210127082905030.png" alt="image-20210127082905030" style="zoom:80%;" />
+
+
+
+![image-20210127083251285](C:\Users\User\Documents\AY20-21-Semester-2\MA3110\Mega Problem Set\Mega Problem Set.assets\image-20210127083251285.png)
+
+![image-20210127083436290](C:\Users\User\Documents\AY20-21-Semester-2\MA3110\Mega Problem Set\Mega Problem Set.assets\image-20210127083436290.png)
+
+![image-20210127083510924](C:\Users\User\Documents\AY20-21-Semester-2\MA3110\Mega Problem Set\Mega Problem Set.assets\image-20210127083510924.png)
+
+
+
+<img src="C:\Users\User\Documents\AY20-21-Semester-2\MA3110\Mega Problem Set\Mega Problem Set.assets\image-20210127084017180.png" alt="image-20210127084017180" style="zoom:67%;" />
+
+Prove: 
+
+<img src="C:\Users\User\Documents\AY20-21-Semester-2\MA3110\Mega Problem Set\Mega Problem Set.assets\image-20210127084503912.png" alt="image-20210127084503912" style="zoom:67%;" />
+
+<img src="C:\Users\User\Documents\AY20-21-Semester-2\MA3110\Mega Problem Set\Mega Problem Set.assets\image-20210127084851808.png" alt="image-20210127084851808" style="zoom:67%;" />
+
+<img src="C:\Users\User\Documents\AY20-21-Semester-2\MA3110\Mega Problem Set\Mega Problem Set.assets\image-20210127085041555.png" alt="image-20210127085041555" style="zoom:67%;" />
+
+Prove:
+
+<img src="C:\Users\User\Documents\AY20-21-Semester-2\MA3110\Mega Problem Set\Mega Problem Set.assets\image-20210127085415120.png" alt="image-20210127085415120" style="zoom:67%;" />
+
+<img src="C:\Users\User\Documents\AY20-21-Semester-2\MA3110\Mega Problem Set\Mega Problem Set.assets\image-20210127085513537.png" alt="image-20210127085513537" style="zoom:67%;" />
+
+
+
+![image-20210127091222533](C:\Users\User\Documents\AY20-21-Semester-2\MA3110\Mega Problem Set\Mega Problem Set.assets\image-20210127091222533.png)
+
+<img src="C:\Users\User\Documents\AY20-21-Semester-2\MA3110\Mega Problem Set\Mega Problem Set.assets\image-20210127092300087.png" alt="image-20210127092300087" style="zoom:67%;" />
+
+<img src="C:\Users\User\Documents\AY20-21-Semester-2\MA3110\Mega Problem Set\Mega Problem Set.assets\image-20210127092402361.png" alt="image-20210127092402361" style="zoom:67%;" />
+
+<img src="C:\Users\User\Documents\AY20-21-Semester-2\MA3110\Mega Problem Set\Mega Problem Set.assets\image-20210127092837388.png" alt="image-20210127092837388" style="zoom:67%;" />
+
+> ![image-20210201081456851](C:\Users\User\Documents\AY20-21-Semester-2\MA3110\Mega Problem Set\Mega Problem Set.assets\image-20210201081456851.png)
+
+<img src="C:\Users\User\Documents\AY20-21-Semester-2\MA3110\Mega Problem Set\Mega Problem Set.assets\image-20210127093456893.png" alt="image-20210127093456893" style="zoom:67%;" />
+
+# Lecture 7
+
+## Recap
+
+![image-20210201080951640](C:\Users\User\Documents\AY20-21-Semester-2\MA3110\Mega Problem Set\Mega Problem Set.assets\image-20210201080951640.png)
+
+![image-20210201082857909](C:\Users\User\Documents\AY20-21-Semester-2\MA3110\Mega Problem Set\Mega Problem Set.assets\image-20210201082857909.png)
+
+> Do this for $x^2 ~\text{ for } x \in [0,1]$.
+>
+> Use the same partition.
+>
+> $U(h, P_n)  = \sum_{k=1}^n \frac{k^2}{n^3} = \frac{1}{n^3}\left(\frac{[n(n+1)(2n+1)]}{6}\right) = \frac{(n + 1)(2n + 1)}{6n^2}$. 
+>
+> $L(h, P_n)  = \sum_{k=1}^n \frac{(k-1)^2}{n^3} = \frac{1}{n^3}\left(\frac{[(n-1)(n)(2n-1)]}{6}\right) = \frac{(n - 1)(2n - 1)}{6n^2}$. 
+>
+> Both terms converge to $\frac{1}{3}$. 
+
+## Theorem 7.1.3
+
+Prove:
+
+<img src="C:\Users\User\Documents\AY20-21-Semester-2\MA3110\Mega Problem Set\Mega Problem Set.assets\image-20210201083728813.png" alt="image-20210201083728813" style="zoom:67%;" />
+
+## Riemann Integrability Criterion
+
+<img src="C:\Users\User\Documents\AY20-21-Semester-2\MA3110\Mega Problem Set\Mega Problem Set.assets\image-20210201083930699.png" alt="image-20210201083930699" style="zoom: 50%;" />
+
+<img src="C:\Users\User\Documents\AY20-21-Semester-2\MA3110\Mega Problem Set\Mega Problem Set.assets\image-20210201085058228.png" alt="image-20210201085058228" style="zoom: 50%;" />
+
+<img src="C:\Users\User\Documents\AY20-21-Semester-2\MA3110\Mega Problem Set\Mega Problem Set.assets\image-20210201085427166.png" alt="image-20210201085427166" style="zoom:67%;" />
+
+Prove:
+
+<img src="C:\Users\User\Documents\AY20-21-Semester-2\MA3110\Mega Problem Set\Mega Problem Set.assets\image-20210201101529787.png" alt="image-20210201101529787" style="zoom: 50%;" />
+
+
+
+<img src="C:\Users\User\Documents\AY20-21-Semester-2\MA3110\Mega Problem Set\Mega Problem Set.assets\image-20210201102012552.png" alt="image-20210201102012552" style="zoom:67%;" />
+
+Prove:
+
+![image-20210201102745023](C:\Users\User\Documents\AY20-21-Semester-2\MA3110\Mega Problem Set\Mega Problem Set.assets\image-20210201102745023.png)
+
+![image-20210201103019997](C:\Users\User\Documents\AY20-21-Semester-2\MA3110\Mega Problem Set\Mega Problem Set.assets\image-20210201103019997.png)
+
+# Lecture 8
+
+## Recap
+
+<img src="C:\Users\User\Documents\AY20-21-Semester-2\MA3110\Mega Problem Set\Mega Problem Set.assets\image-20210203080955682.png" alt="image-20210203080955682" style="zoom: 50%;" />
+
+<img src="C:\Users\User\Documents\AY20-21-Semester-2\MA3110\Mega Problem Set\Mega Problem Set.assets\image-20210203081321848.png" alt="image-20210203081321848" style="zoom:67%;" />
+
+## Theorem 7.2.6 continued
+
+<img src="C:\Users\User\Documents\AY20-21-Semester-2\MA3110\Mega Problem Set\Mega Problem Set.assets\image-20210203081557207.png" alt="image-20210203081557207" style="zoom:67%;" />
+
+<img src="C:\Users\User\Documents\AY20-21-Semester-2\MA3110\Mega Problem Set\Mega Problem Set.assets\image-20210203082351179.png" alt="image-20210203082351179" style="zoom:67%;" />
+
+Only proof for (iv) is shown, the first few are not important
+
+![image-20210203085529940](C:\Users\User\Documents\AY20-21-Semester-2\MA3110\Mega Problem Set\Mega Problem Set.assets\image-20210203085529940.png)
+
+## Theorem 7.2.7
+
+Prove
+
+<img src="C:\Users\User\Documents\AY20-21-Semester-2\MA3110\Mega Problem Set\Mega Problem Set.assets\image-20210203090346737.png" alt="image-20210203090346737" style="zoom: 50%;" />
+
+<img src="C:\Users\User\Documents\AY20-21-Semester-2\MA3110\Mega Problem Set\Mega Problem Set.assets\image-20210203090853004.png" alt="image-20210203090853004" style="zoom:67%;" />
+
+## Theorem 7.2.8
+
+Prove
+
+![image-20210203090959547](C:\Users\User\Documents\AY20-21-Semester-2\MA3110\Mega Problem Set\Mega Problem Set.assets\image-20210203090959547.png)
+
+> Use RIC
+
+![image-20210203091935509](C:\Users\User\Documents\AY20-21-Semester-2\MA3110\Mega Problem Set\Mega Problem Set.assets\image-20210203091935509.png)

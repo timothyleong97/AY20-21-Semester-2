@@ -122,6 +122,13 @@ Let $f(x) = x^5+4x+3$ , $x \in \mathbb{R}$ and let $g = f^{-1}: \mathbb{R} \righ
 >
 > Then $c = 1$. So $g'(8) = \frac{1}{f'(1)} = \frac{1}{9}$.
 
+> To prove that a function spans $\mathbb{R}$, use the intermediate value theorem. First show $\lim_{x \rightarrow \pm\infty} f(x) = \pm \infty$. Then show that for any $y$, there exists an $x$ such that $f(x) = y$. 
+> $$
+> \exists M_1 \text{ s.t } ~ x \geq M_1 \implies f(x) > y \\
+> \exists M_2 \text{ s.t } ~ x \leq M_2 \implies f(x) < y \\
+> $$
+> So by IVT there must be some $x_0 \in (M_1, M_2)$ such that $f(x_0) = y$.
+
 ## Question 6
 
 Use the Mean Value Theorem to prove that 
@@ -158,6 +165,8 @@ $$
 > \sqrt{1 + x} = 1 + \frac{1}{2\sqrt{1 + c_1}}x < 1 + \frac{1}{2}x
 > $$
 > because $c_1 > 0 \implies \sqrt{1 + c_1} > 1$. 
+>
+> > Intuition: Can use MVT to show $f(x) \leq\geq \text{ some polynomial}$.
 
 ## Question 7
 
@@ -167,7 +176,11 @@ Let $I$ be an open interval and let $c \in I$. Let $f: I \rightarrow \mathbb{R}$
 
 > Answer: 
 >
-> Let $f(x) = x$ and $c = 0$. 
+> Let $f(x) = x$ and $c = 0$.
+>
+> Correction:
+>
+> Let $f(x) = x - c$ so that $g(x) = |x - c|$ 
 
 2. Prove that if $g$ is differentiable at $c$, then $f$ is also differentiable at $c$.
 
@@ -195,7 +208,7 @@ Let $I$ be an open interval and let $c \in I$. Let $f: I \rightarrow \mathbb{R}$
 > $$
 > \lim_{x\rightarrow c}f(x) = f(c) < 0.
 > $$
->  There exists $\delta > 0$ such that 
+> There exists $\delta > 0$ such that 
 > $$
 > 0 < |x - c| < \delta \implies f(x) < 0.
 > $$
@@ -204,6 +217,18 @@ Let $I$ be an open interval and let $c \in I$. Let $f: I \rightarrow \mathbb{R}$
 > ___
 >
 > Suppose $f(c) = 0$. Then $g(c) = 0$ which makes $g(c)$ an absolute minimum. Since $c$ is an interior point of $I$, by the Interior Extremum Theorem, $g'(c) = \phi(c) = 0$. Since $f(x) = sign(f(x))g(x)$, $f(x) = sign(f(x))\phi(x)(x-c)$. Not sure how to show that $sign(f(x))\phi(x)$ is continuous.
+>
+> Correction:
+> $$
+> \begin{aligned}
+> g'(c) = \lim_{x \rightarrow c} \frac{|f(x)| - |f(c)|}{x - c} \\
+> = \lim_{x \rightarrow c} \frac{|f(x)|}{x - c} \\
+> = \lim_{x \rightarrow c^+} \frac{|f(x)|}{x - c} \\
+> = \lim_{x \rightarrow c^-} \frac{|f(x)|}{x - c}
+> \end{aligned}
+> $$
+> Because $x - c$ is negative and positive for left and right hand limit, but the limits are equal, they must equal 0.
 
 3. Compute $f'(c)$ in terms of $g'(c)$.
 
+> Question 8: The straddle lemma is to say that close to a point, the line segment is close to the tangent

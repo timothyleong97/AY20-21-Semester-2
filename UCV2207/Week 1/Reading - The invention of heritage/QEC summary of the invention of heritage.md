@@ -200,7 +200,7 @@ Why was music probably a bad choice?
 
 ___
 
-Why does culture not appear to be changing right now?  - Mark fisher - title is capital’s realism? 
+Why does culture not appear to be changing right now?  - Mark fisher - title is capitalist realism? 
 
 popular culture seems to be stagnating
 

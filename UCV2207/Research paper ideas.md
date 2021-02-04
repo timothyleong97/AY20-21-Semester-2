@@ -20,3 +20,5 @@ You wanna get everybody on the same page, don’t choose something that is uniqu
 
 Continuity vs disingenuous invention
 
+Can we transmit memories? Do we really own memories of the past
+
